@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>TO-DO List</h2>
+        <ul>
+            <li id="all">ALL</li>
+            <li id="active">Active</li>
+            <li id="completed">Completed</li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="all">
+            <h2>Tasks</h2>
+            <ul class="todos" id="all_todos"></ul>
+
+            <ul class="todos" id="active_todos"></ul>
+
+            <ul class="todos" id="completed_todos"></ul>
+        </section>
+
+        <section class="bottom_bar">
+            <button id="clearAllBTN" type="button" class="bottom_btn">clear all</button>
+            <button id="addTaskBTN" type="button" class="bottom_btn">Add Task</button>
+        </section>
+
+        <section class="add_task_pannel" id="addTaskSection">
+            <div class="container">
+                <h2>Add Task</h2>
+                <input type="text" placeholder="Add Your Task" id="taskInput">
+                <div>
+                    <button id="addBTN" type="button">add</button>
+                    <button id="cancelBTN" type="button">cancel</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>mrudul ravindra jade</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
