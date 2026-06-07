@@ -1,0 +1,20 @@
+{
+  "name": "todo_list_app",
+  "version": "1.0.0",
+  "description": "This is an simple to-do list app made to moniter daily tasks and calculate efficiency.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "To-Do",
+    "todo",
+    "list."
+  ],
+  "author": "Mrudul Ravindra Jade",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^24.16.0"
+  }
+}
